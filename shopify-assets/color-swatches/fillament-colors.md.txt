@@ -1,0 +1,50 @@
+# Fillament Color Codes
+
+## Overture
+- [Filament Colors Source](https://filamentcolors.xyz/library/?f=&mfr=overture&ft=pla)
+
+### PLA
+
+```yml
+white: 
+  - orig: #E7EBE5
+space-grey: 
+  - orig: #79777A  
+  - swatch: orig
+  - angle3d: #1a1a1a
+black: 
+  - orig: #2B292E
+  - blender: 37353B
+    - metallic: .5
+    - roughness: .5
+blue: 
+  - orig: #004071 
+  - swatch: #1b3dac
+  - angle3d: #050935
+light-blue: 
+  - orig: #7BC4D7  
+  - swatch: orig
+  - angle3d: #144871
+purple: 
+  - orig: #7B5DB1
+  - swatch: orig
+  - angle3d: #290f57
+pink: 
+  - orig: #DC99B5
+  - swatch: orig
+  - angle3d: #b31a5a
+fresh-red: 
+  - orig: #C01E1E
+orange: 
+  - orig: #F27C1C
+yellow: 
+  - orig: #DFB234   
+  - swatch: #f1f100  
+  - angle3d: #7c5b00
+green: 
+  - orig: #318C4A
+  - swatch: orig
+  - angle3d: #002f0d
+
+red: #C9341B
+```

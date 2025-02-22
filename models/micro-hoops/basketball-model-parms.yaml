@@ -1,0 +1,17 @@
+unit-of-measure: mm
+basketball-hoop:
+  rim:
+    outside-diameter: 48
+    inside-diameter: 40
+    thiskness: 6
+  backboard:
+    width: 152
+    height: 88
+    rim-base-hole-width: ??
+    rim-base-hole-height: ??
+    rim-base-hole-dist-from-bottom: ??
+    square-outside-width: ??
+    square-inside-width: ??
+    square-outside-height: ??
+    square-inside-height: ??
+    square-dist-from-bottom: ??

@@ -1,0 +1,85 @@
+model-scale: 1/12
+global-parms:
+  unit: mm
+  baseplate-thickness: 2
+  hole-dimenstions:
+    array-factor-x: 4
+    hole-diameter: 4
+    hole-insert-diam: 3.5
+model-categories:
+  - power-rack:
+      tubing-width: 10
+      crossmember-plate: 34
+      crossmember-plate-hole-spacing: 24
+      crossmember-hole-spacing: 12
+      upright-8:
+        height: 204
+        front-hole-count: 16
+        side-hole-count: 17
+      crossmember-4:
+        width: 102
+        top-hole-count: 7
+        side-hole-count: 8
+      crossmember-3:
+        width: 76
+        top-hole-count: 5
+        side-hole-count: 6
+      crossmember-2:
+        width: 50
+        top-hole-count: 3
+        side-hole-count: 4
+  - accessories:
+  - barbells:
+      diam: 5
+      notch-diam: 7.3
+      notch-gap-width: 2
+      notch-gap-length: 6.7
+      sleeves:
+        total-length: 40
+        collar-diam: 12
+        collar-length: 8
+        sleeve-diam: 9
+        sleeve-length-loadable: 32
+        barbell-socket: 6
+      power-bar:
+        bar-lenght: 207
+  - plates:
+  - attachments:
+      land-mine: tbd
+      weight-horn: 
+        height: 20.7
+        loading-length: 27
+      spotter-arms:
+        length: 62.5
+        hole-count: 4 
+      jcup-uhmw: 20
+        height: 
+      logo-plate:
+        length: 94
+        depth: 2
+        height: 30
+        hole-spacing: 84
+  - fasteners:
+      drive-type: hex
+      drive-head-distance: 6
+      drive-head-height: 3
+      bolts:
+        rack-bolt:
+          shank-length: 6
+          shank-diam: 3.5
+          threah-length: 16
+          major-diam: 3.5
+          minor-diam: 2.6
+          pitch: 1.2
+          crest-preset: 10
+          root-preset: 10
+          div-count: 36
+          total-length: 22
+      nuts:
+        rack-nut:
+          major-diam: 4
+          minor-diam: 2.9
+          pitch: 1.2
+          crest-preset: 10
+          root-preset: 10
+          div-count: 36
