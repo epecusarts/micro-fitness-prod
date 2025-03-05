@@ -9,7 +9,7 @@
 white: 
   - orig: #E7EBE5
 space-grey: 
-  - orig: #79777A  
+  - orig: #79777A
   - swatch: orig
   - angle3d: #1a1a1a
 black: 
@@ -18,11 +18,11 @@ black:
     - metallic: .5
     - roughness: .5
 blue: 
-  - orig: #004071 
+  - orig: #004071
   - swatch: #1b3dac
   - angle3d: #050935
 light-blue: 
-  - orig: #7BC4D7  
+  - orig: #7BC4D7
   - swatch: orig
   - angle3d: #144871
 purple: 
@@ -38,8 +38,8 @@ fresh-red:
 orange: 
   - orig: #F27C1C
 yellow: 
-  - orig: #DFB234   
-  - swatch: #f1f100  
+  - orig: #eeea00
+  - swatch: #f1f100
   - angle3d: #7c5b00
 green: 
   - orig: #318C4A
@@ -48,3 +48,12 @@ green:
 
 red: #C9341B
 ```
+
+# Glass Material
+- add new material
+- base: Light grey
+- Transmission: 1
+- Roughness: 0
+- IOR: 1.52
+- Alpha: .5
+
