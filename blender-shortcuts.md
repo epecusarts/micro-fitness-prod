@@ -58,3 +58,25 @@
 
 
 
+### Camera View
+  - Num Pad `0` - puts you to the perspective of the camera, when a camera is added to the workspace
+  - Use for taking a 2d image of a 3d model
+    - Might need to manually adjust camera postion so it captures you image as close to its dimensinons as close as possible.
+
+
+### Multi-Color printing
+
+#### Light Text on Dark Background
+  - Determine object layer count
+  - Bambu Studio Slice Settings:
+    - `Bottom Paint Penetration Layers`:
+      - Set deept enought relative to total layers
+        - If total layers = `100` and want a light text on dark background:
+          - Set `Bottom paint penetration layers` high but at least one less than total layers.
+          - Set Bottom shell layers (assuming color print is coming from bottom) to at least 3 layers.
+
+
+### Level Vertices
+  - Select axis view
+    - Select plane view (X, Y, Z)
+    - `s`, `$PLANE_TO_LEVEL`, `<enter>`
